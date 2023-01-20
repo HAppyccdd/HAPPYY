@@ -1,0 +1,568 @@
+
+.proo {
+    background-color: rgb(255, 255, 255);
+}
+.por1 {
+    font-family:'Pacifico', cursive;
+    text-align: center;
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    font-size: 70px;
+    transform: translateX(-50%);
+    font-weight: 800;
+    color: blueviolet;
+    animation: spinner10 15s ease-in-out forwards;
+    z-index: 3;
+       
+}
+.pro {
+    padding:600px 900px 0px 0px;
+    font-size: 70px;
+    position: absolute;
+    font-weight: 700;
+    color: brown;
+    background-color: white;
+    z-index: -1;
+
+}
+.pro2 {
+   position: absolute;
+  top: 50%;
+  right: 50%;
+  margin-right: -500px;
+  margin-top: 60px;
+  animation: spinner1 3s ease-in-out forwards;
+  animation-delay: 5s;
+  font-family: 'Courier New', Courier, monospace;
+}
+.pro3 {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    margin-right: -530px;
+    margin-top: 60px;
+    animation: spinner6 8s ease-out forwards;
+    animation-delay: 5s;
+    font-family: 'Courier New', Courier, monospace; 
+}
+.pro4 {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    margin-right: -535px;
+    margin-top: 60px;
+    animation: spinner5 10s ease-in-out forwards;
+    animation-delay: 5s;
+    font-family: 'Courier New', Courier, monospace;
+}
+@keyframes spinner1 {
+    0% {
+        right: 0;
+        opacity: 0;       
+    }
+    66.66% {
+        right: 20%;
+        margin-right: 100px;
+    }
+}
+@keyframes spinner2 {
+    0% {
+        right: 0;
+        opacity: 0;
+    }
+    50% {
+    right: 30%;
+    margin-right: 100px;
+    }
+}
+@keyframes spinner3 {
+    0% {
+        right: 30%;
+    margin-right: 100px;
+    }
+    50% {
+        top:50%
+    }
+}
+@keyframes spinner4 {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes spinner5 {
+    0% {
+        right: -100;
+        opacity: 0;
+    }
+    50% {
+        right: 50px;
+        opacity: 0; 
+    }    
+
+    100% {
+        right: 450px;
+    }
+}
+@keyframes spinner6 {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.quyen {
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Pacifico', cursive;
+    position: fixed;
+    top: 250px;
+    left: 550px;
+    color: cyan;
+    animation: nguyenquyen 8s ease-in-out forwards;
+    animation-delay: 5s;
+}    
+@keyframes nguyenquyen {
+    0% {
+        top: -50%;
+        opacity: 1;
+    }
+    50% {
+        top: 250px;
+        opacity: 0.5;
+    }
+    100% {
+        top: 500px;
+        opacity: 0;
+    }
+}
+.mybutton {
+    padding: 20px 40px;
+    border: none;
+    background-color: rgb(76, 235, 221);
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    outline: none;
+    position: fixed;
+    border-radius: 20px;
+    animation: spinner10 16s ease-in-out forwards;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: xx-large;
+    z-index: 3;
+    cursor: pointer;
+
+}
+.mybutton:hover {
+    background-color:rgba(0, 0, 0, 0.6);
+}
+.modal {
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    z-index: 3;
+
+}
+.modal__liner {
+    position: relative;
+    width: 400px;
+    top: 50%;
+    margin: auto;
+    background-color:aliceblue;
+    animation: spinner9 2s linear forwards;
+}
+.modal__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: i;
+    padding: 15px;
+    background-color: #e26e70;
+    color: white;
+}
+.modal__body{
+    padding: 15px
+}
+.modal__footer{
+    padding: 15px;
+    text-align: right;
+    
+}
+.modal__body h2 {
+    color: #e26e70;
+    font-family: 'Courier New', Courier, monospace;
+}
+.modal__footer button {
+    padding: 10px 20px;
+    background-color: #e26e70;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+.hide {
+    display: none;
+}
+@keyframes spinner9{
+    0% {
+        top: 20px;
+        opacity: 0;
+    }
+    50% {
+        top: 100px;
+        opacity: 1;
+    }
+    100% {
+        top: 200px;
+        opacity: 1;
+    }
+}
+.modal__body p {
+    font-family: cursive;
+    color:#a55eea
+}
+@keyframes spinner10 {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0;
+    }
+    
+    50% {
+        opacity: 0;
+    }
+    75% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.broo {
+    width: 200px;
+    height: 200px;
+}
+.cuocdoi {
+    width: 15%;
+    align-items: center;
+}
+@keyframes spinner16 {
+    0% {
+        left: 100px;
+        opacity: 0;
+    }
+    50% {
+        left: 50px;
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        left: 0;
+
+    }
+}
+.h1 {
+    animation: spinner16 12s ease-in-out forwards;
+    animation-delay: 5s;
+}
+.h2 {
+    animation: spinner16 12s ease-in-out forwards;
+    animation-delay: 5s;
+}
+.h3 {
+    animation: spinner16 12s ease-in-out forwards;
+    animation-delay: 5s;
+}
+.z {
+    width: 100px;
+    height: 100px;
+    border-radius: 180px;
+    position: absolute;
+    background-color: #a55eea;
+    top: 100px;
+    left: 800px;
+    animation: spinner19 1s infinite linear;
+    animation-delay: -0.5s;
+}
+.span {
+    width: 100px;
+    height: 100px;
+    border-radius: 180px;
+    position: absolute;
+    background-color: #f30a1d;
+    top: 100px;
+    left: 800px; 
+    animation: spinner19 1s infinite linear ;
+}
+@keyframes spinner19 {
+    0% {
+        left: 800px;
+    }
+    50% {
+        left: 900px;
+    }
+    100% {
+        left: 800px;    
+    }
+}
+.zzz {
+    width: 100px;
+    height: 100px;
+    border-radius: 180px;
+    position: absolute;
+    background-color: #a55eea;
+    top: 100px;
+    left: 800px; 
+    animation: spinner20 1s infinite linear;
+    animation-delay: -0.5s;
+}
+@keyframes spinner20 {
+    0% {
+        opacity: 0;
+        left: 800px;
+    }
+    49.99% {
+        opacity: 0;
+        left: 900px;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+.đỗ {
+    position: fixed;
+    font-size: 150px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    animation: spinner66 1s ease-in forwards;
+    color: #a55eea;
+    font-family: 'Courier New', Courier, monospace;
+}
+.thị {
+    position: fixed;
+    font-size: 150px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: spinner666 3s ease-in-out forwards;
+    z-index: 2;
+    color: #e26e70;
+    font-family: 'Courier New', Courier, monospace;
+}
+.minh {
+    position: fixed;
+    font-size: 150px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: spinner6666 6s ease-in-out forwards;
+    z-index: 2;
+    color: #f30a1d;
+    font-family: 'Courier New', Courier, monospace;
+}
+@keyframes spinner66 {
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 1;
+
+    }
+    50% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.jkl {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(119, 243, 227);
+    position:absolute;
+    z-index: 1;
+    animation: spinner40 2s ease-out forwards;
+    animation-delay: 5s;
+    left: 0;
+    top: 0;
+}
+@keyframes spinner666 {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.5;
+
+    }
+    50% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes spinner6666 {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0;
+
+    }
+    50% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes spinner40 {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+#open {
+    position: fixed;
+    top: 80%;
+    left: 60%;
+    padding: 10px 20px;
+    z-index: 3;
+    border-radius: 10px;
+}
+a.button {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 20px;
+    background-color: #0099ff;
+    top: 75%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: fixed;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    z-index: 3;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation: spinner10 16s ease-in forwards;
+}
+.button:hover {
+    background-color:rgba(0, 0, 0, 0.6);
+}
+.buttons:hover {
+    background-color:rgba(0, 0, 0, 0.6);
+}        
+a.buttons {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 20px;
+    background-color: #0099ff;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: fixed;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    z-index: 3;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation: spinner10 16s ease-in forwards;
+}
+@keyframes spinner100 {
+    from {
+        z-index: -1;
+        opacity: 0;
+    }
+    to {
+        z-index: 1;
+        opacity: 1;
+    }
+}
+#bottunssss {
+    position: fixed;
+    padding: 8px 16px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    font-size: 40px;
+    top: 90%;
+    left: 40%;
+    z-index: 4;
+    text-shadow: 0px 0px 5px yellow, 0px -5px 5px red;
+    box-shadow: 5px 5px 5px black;
+    cursor: pointer;
+    animation: spinner100 20s ease-in forwards;
+}
+#bottunssss:hover {
+    background-color:rgb(92, 92, 211);
+    color: aqua;
+}
+@keyframes spinner100 {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#bottunsssss {
+    position: fixed;
+    padding: 8px 16px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    font-size: 40px;
+    text-shadow: 0px 0px 5px rgb(255, 255, 4), 0px -5px 5px rgb(255, 1, 1);
+    box-shadow: 5px 5px 5px black;
+    cursor: pointer;
+    z-index: 4;
+    animation: spinner100 30s ease-in-out forwards;
+    top: 90%;
+    left: 50%;
+}
+#bottunsssss:hover {
+    background-color:rgb(92, 92, 211);
+    color: aqua;
+}
+@keyframes spinner200 {
+    to {
+        z-index: 2;
+    }
+}
+#okkkk {
+    position: fixed;
+    left: 15%;
+    top: 15%;
+    z-index: 2;
+}
